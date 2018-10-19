@@ -4,7 +4,7 @@ if array.length == 1
   array.join()
 else
 last = array.pop()
-  array.join(", ") + " and " + "#{last}"
+  array.join(", ") + ", and " + "#{last}"
 end
 
 end
